@@ -3,7 +3,7 @@ import { fileURLToPath, URL } from 'node:url';
 import { defineConfig, loadEnv } from 'vite';
 import vue from '@vitejs/plugin-vue';
 
-export default defineConfig(({ mode }) => {
+export default defineConfig(() => {
     const env = loadEnv('', process.cwd(), '')
     return {
         base: '/',
