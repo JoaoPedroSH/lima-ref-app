@@ -10,7 +10,7 @@ export default defineConfig(() => {
         plugins: [vue()],
         server: {
             host: true,
-            port: Number(env.VITE_PORT) || 8080,
+            port: Number(env.VITE_PORT) || 8000,
             watch: {
                 usePolling: true
             }
